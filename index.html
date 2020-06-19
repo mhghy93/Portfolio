@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="d-flex flex-column">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark font-weight-bolder">
+        <a class="navbar-brand ml-5" href="index.html">
+            <i class="fas fa-h-square"></i> Home
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-3 ml-3">
+                    <a class="nav-link" href="#about">
+                        <i class="fas fa-info-circle"></i> About
+                    </a>
+                </li>
+
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#projects">
+                        <i class="fas fa-tasks"></i> Projects
+                    </a>
+                </li>
+
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#skills">
+                        <i class="fas fa-pencil-alt"></i> Skills
+                    </a>
+                </li>
+
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#contact">
+                        <i class="far fa-address-book"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About -->
+    <section id="about">
+        <header class="masthead">
+            <div class="container h-100 text-white">
+              <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                  <h1 class="font-weight-light">Mustaque Hussain</h1>
+                  <p class="lead">I am a Web Developer</p>
+                </div>
+              </div>
+            </div>
+        </header>
+    </section>
+
+    <div id="page-content">
+        <div class="container mt-5">
+
+            <!-- Projects -->
+            <section id="projects">
+                <h2 class="text-center font-weight-bold mb-3">
+                    <i class="fas fa-tasks"></i> PROJECTS
+                </h2>
+                <div class="row">
+                    <!-- Project 1 -->
+                    <div class="col-sm-4">
+                        <div class="card shadow bg-white rounded h-100" style="width: 18rem;">
+                            <img src="img/project1.png" class="card-img-top img-thumbnail" alt="techblogger">
+                            <div class="card-body">
+                              <h5 class="card-title font-weight-bolder">TechBlogger</h5>
+                              <p class="card-text">
+                                A blogging app where users can create, update and delete posts. This web app was developed using HTML, CSS, Bootstrap, jQuery, Nodejs and MongoDB.
+                              </p>
+                              <a href="https://github.com/mhghy93/blogger" class="btn btn-block bg-dark text-white" target="_blank">
+                                <i class="fab fa-github"></i> Github Code
+                              </a>
+                              <a href="https://murmuring-anchorage-68151.herokuapp.com" class="btn btn-block bg-warning" target="_blank">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+
+                   <!-- Project 2 -->
+                    <div class="col-sm-4">
+                        <div class="card shadow bg-white rounded h-100" style="width: 18rem;">
+                            <img src="img/project2.png" class="card-img-top img-thumbnail" alt="event-registration">
+                            <div class="card-body">
+                              <h5 class="card-title font-weight-bolder">Event Registration</h5>
+                              <p class="card-text">
+                                A web app which is partially a clone of HackerEarth's hackathon "StackHack 1.0". 
+                                This web app was developed using HTML, CSS, Bootstrap, jQuery, Nodejs and MongoDB.
+                              </p>
+                              <a href="https://github.com/mhghy93/event-registration" class="btn btn-block bg-dark text-white" target="_blank">
+                                <i class="fab fa-github"></i> Github Code
+                              </a>
+                              <a href="#" class="btn btn-block bg-warning">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-sm-4">
+                        <div class="card shadow bg-white rounded h-100" style="width: 18rem;">
+                            <img src="img/project3.png" class="card-img-top img-thumbnail" alt="event-registration">
+                            <div class="card-body">
+                              <h5 class="card-title font-weight-bolder">News App</h5>
+                              <p class="card-text">
+                                  An android app display recent news stories. An API was used while building this app.
+                                  Java was used to build this app.
+                              </p>
+                              <a href="https://github.com/mhghy93/News-App-Stage-2" class="btn btn-block bg-dark text-white" target="_blank">
+                                <i class="fab fa-github"></i> Github Code
+                              </a>
+                              <a href="#" class="btn btn-block bg-warning">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <br><br><br>
+            <!-- Skills -->
+            <section id="skills" class="mt-5">
+                <h2 class="text-center font-weight-bold mb-3">
+                    <i class="fas fa-pencil-alt"></i> SKILLS
+                </h2>
+                <hr>
+                <div class="row mb-3 mt-3">
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fab fa-html5"></i> HTML
+                        </h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fab fa-css3"></i> CSS
+                        </h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fab fa-bootstrap"></i> Bootstrap
+                        </h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fab fa-js"></i> Javascript
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fab fa-js"></i> jQuery
+                        </h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fab fa-node"></i> Nodejs
+                        </h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fas fa-database"></i> MongoDB
+                        </h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>
+                            <i class="fas fa-database"></i> MYSQL
+                        </h5>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <br><br><br>
+            <!-- Contact -->
+            <section id="contact">
+                <h2 class="text-center font-weight-bold mb-5">
+                    <i class="far fa-address-book"></i> CONTACT
+                </h2>
+                <div class="row mt-3">
+                    <div class="col-sm-4">
+                        <a class="text-decoration-none text-dark" href="mailto:hussainmustaque@gmail.com">
+                            <h5>
+                                <i class="far fa-envelope"></i> hussainmustaque@gmail.com
+                            </h5>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="text-decoration-none text-dark" href="https://in.linkedin.com/in/mustaque-hussain-3b397799" target="_blank">
+                            <h5>
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </h5>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="text-decoration-none text-dark" href="https://github.com/mhghy93" target="_blank">
+                            <h5>
+                                <i class="fab fa-github"></i> Github
+                            </h5>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 mt-5">
+        <div class="container text-center">
+          <small>Copyright &copy; Mustaque Hussain</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.map"></script>
+</body>
+
+</html>
